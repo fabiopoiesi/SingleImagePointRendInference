@@ -6,6 +6,6 @@ Just install Detectron2 following [INSTALL.md](https://github.com/facebookresear
 
 Place infer_image.py and metallica.jpg in the folder /path/to/detectron2/projects/PointRend.
 
-Activate your virtual environment and run python infer_image.py
+Activate your virtual environment and run 'python infer_image.py'
 
 It should work!
