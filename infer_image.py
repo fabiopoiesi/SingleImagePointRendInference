@@ -36,14 +36,10 @@ if __name__ == '__main__':
     instance_mode = ColorMode.IMAGE
 
     instances = output["instances"].to(cpu_device)
-
     instances = instances[instances.scores > th_instance_prob]
 
     visualizer = Visualizer(img, metadata, instance_mode=instance_mode)
-
     vis_output = visualizer.draw_instance_predictions(predictions=instances)
-
-    print(vis_output.get_image().shape)
 
     cv2.namedWindow('res', cv2.WINDOW_NORMAL)
     cv2.imshow('res', vis_output.get_image())
