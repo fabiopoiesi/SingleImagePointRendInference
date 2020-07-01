@@ -1,6 +1,6 @@
 # SingleImagePointRendInference
 
-Simple but yet useful script to run PointRend on single image using [Detectron2](https://github.com/facebookresearch/detectron2).
+Simple but yet useful script to run [PointRend](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend) on single image using [Detectron2](https://github.com/facebookresearch/detectron2).
 
 Just install Detectron2 following [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md) (my favourite is venv + pip option)
 
